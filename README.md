@@ -1,7 +1,7 @@
 Prepare environment:
 
 	$ mkvirtualenv myproject --no-site-packages
-	$ pip install -r REQUIREMENTS
+	$ pip install -r requirements/dev
 
 Customize project structure:
 
