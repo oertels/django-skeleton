@@ -1,2 +1,2 @@
-$ mkvirtualenv myproject --no-site-packages
-$ pip install -r REQUIREMENTS
+	$ mkvirtualenv myproject --no-site-packages
+	$ pip install -r REQUIREMENTS
