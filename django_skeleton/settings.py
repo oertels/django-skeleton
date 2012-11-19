@@ -3,6 +3,8 @@
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
+rel = lambda x: os.path.join(os.path.abspath(os.path.dirname(__file__)), x)
+
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),
 )
