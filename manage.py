@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 import os
 import sys
-from django_skeleton import rel
+from django_skeleton.settings import rel
 
-sys.path.insert(rel('apps'), 0)
+for path in ('apps', 'contrib',)[::-1]:  # reverse order
+    sys.path.insert(0, rel(path))
 
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "django_skeleton.settings")
